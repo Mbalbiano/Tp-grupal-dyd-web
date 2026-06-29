@@ -35,6 +35,7 @@
 
   --section-py:   5rem;
 
+
 }
 
 
@@ -58,6 +59,15 @@ p, span, a, li, label, small, .card-text, .accordion-body {
 .py-6 {
   padding-top: var(--section-py) !important;
   padding-bottom: var(--section-py) !important;
+}
+
+.pb-6 {
+  padding-bottom: var(--section-py)
+}
+
+.my-6 {
+  margin-top: var(--section-py);
+  margin-bottom: var(--section-py);
 }
 
 /* -- 4. NAVBAR -- */
@@ -440,6 +450,12 @@ p, span, a, li, label, small, .card-text, .accordion-body {
   }
 }
 
+@media (max-width: 768px) {
+  .tabla-mobile {
+    margin-bottom: 250px !important;
+  }
+}
+
 /* -- Nav Ingreso Gasto -- /  */
 .avatar-usr {
   width: 40px;
@@ -483,7 +499,7 @@ p, span, a, li, label, small, .card-text, .accordion-body {
 }
 
 .suscripciones {
-  background-color: #ffde3f;
+  background-color: #d3b72b;
 }
 
 .seguros {
